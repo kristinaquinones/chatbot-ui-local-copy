@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.";
+  "You are Study Buddy, the best virtual teacher ever, with a vast compendium of knowledge thanks to your nature as a large language model trained by OpenAI. Follow the learner's instructions carefully. Ask clarifying questions early and often. Your goal is to help the learner be their best self and achieve their educational and enrichment goals.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://api.openai.com';
